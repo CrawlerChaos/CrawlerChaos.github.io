@@ -1,0 +1,125 @@
+.wbdCv-baseTop{height:160px; padding:20px 30px 0; border-bottom:8px solid #0b70bd; background-color:#292929;}
+.wbdCv-baseLeft{position: absolute; bottom:0; left:0; top:160px; width:270px; padding-right:20px !important;}
+.wbdCv-baseRight{padding-left:20px !important;}
+.wbdCv-resume .moduleItem.template_css dl dt span{line-height:24px; color:#333;}
+.wbdCv-resume .moduleItem.template_css dl dt a.wbdfont{float:left; display:inline-block; width:26px; height:26px; line-height:1.55; margin-right:10px; border-radius:50%; color:#fff; text-align:center; overflow:hidden;}
+.wbdCv-resume .moduleItem.template_css dl dt a.wbdfont{background:#292929;}
+.wbdCv-resume .moduleItem.template_css dl dt{margin-bottom:15px;}
+.wbdCv-baseLeft .baseItem-null i{background-position:-133px -791px;}
+
+/*封面*/
+.wbdCv-cover .coverItem{position:absolute; top:854px; left:0; width:500px; padding-left:20px; font-size:16px; color:#fff;}
+
+/*自荐信*/
+.wbdCv-letter .letterItem{line-height:30px;}
+
+/*头像*/
+.wbdCv-baseStyle .headItem.template_css{position:absolute; top:10px;}
+.wbdCv-baseStyle[data-modal_pageMargin='0.5'] .headItem.template_css{right:10px;}
+.wbdCv-baseStyle[data-modal_pageMargin='0.6'] .headItem.template_css{right:14px;}
+.wbdCv-baseStyle[data-modal_pageMargin='0.7'] .headItem.template_css{right:18px;}
+.wbdCv-baseStyle[data-modal_pageMargin='0.8'] .headItem.template_css{right:22px;}
+.wbdCv-baseStyle[data-modal_pageMargin='0.9'] .headItem.template_css{right:26px;}
+.wbdCv-baseStyle[data-modal_pageMargin='1'] .headItem.template_css{right:30px;}
+.wbdCv-baseStyle[data-modal_pageMargin='1.1'] .headItem.template_css{right:34px;}
+.wbdCv-baseStyle[data-modal_pageMargin='1.2'] .headItem.template_css{right:38px;}
+.wbdCv-baseStyle[data-modal_pageMargin='1.3'] .headItem.template_css{right:42px;}
+.wbdCv-baseStyle[data-modal_pageMargin='1.4'] .headItem.template_css{right:46px;}
+.wbdCv-baseStyle[data-modal_pageMargin='1.5'] .headItem.template_css{right:50px;}
+
+/* 时间模块统一样式 */
+.wbdCv-baseStyle .baseItem .dd-title span.time,
+.wbdCv-baseStyle .baseItem .dd-title span.company{width:50%; font-weight:bold; font-size:14px; color:#666;}
+.wbdCv-baseStyle .baseItem .dd-title span.company{float:right; margin-right:0; text-align:right;}
+.wbdCv-baseStyle .baseItem .dd-title span.post{float:none; clear:both; width:60%; font-size:14px; color:#666;}
+.wbdCv-baseStyle .baseItem .dd-title span.time{width:35%;}
+
+/*姓名*/
+.wbdCv-baseStyle .nameItem.template_css{margin-right:170px; margin-bottom: 5px; color:#fff;}
+.wbdCv-baseStyle .nameItem.template_css dl{padding:5px;}
+.wbdCv-baseStyle .nameItem.template_css .name-con .name{line-height:1.2; margin-bottom:15px;}
+
+/*标签*/
+.wbdCv-baseStyle .nameItem.template_css .name-con .resume_tag{display:inline-block; height:45px; line-height:47px;}
+.wbdCv-baseStyle .nameItem.template_css .name-con .resume_tag span{border-color:rgba(255,255,255,0.8); color:rgba(255,255,255,0.8);}
+
+/*个人信息*/
+.wbdCv-baseStyle .infoItem.bInfoItem dl{padding-bottom:30px;}
+.wbdCv-baseStyle .infoItem.template_css dl dt{display:block; margin-bottom:10px;}
+.wbdCv-baseStyle .infoItem.template_css .info-con .info-list{position: relative; margin:0 0 10px 0;}
+.wbdCv-baseStyle .infoItem.template_css .info-con a.wbdfont{position:absolute; width:20px;}
+.wbdCv-baseStyle .infoItem.template_css .info-list span{display:block; line-height:24px; padding-left:25px;}
+.wbdCv-baseStyle[data-modal_pageMargin='0.5'] .infoItem.template_css .info-list span{width:252px;}
+.wbdCv-baseStyle[data-modal_pageMargin='0.6'] .infoItem.template_css .info-list span{width:248px;}
+.wbdCv-baseStyle[data-modal_pageMargin='0.7'] .infoItem.template_css .info-list span{width:244px;}
+.wbdCv-baseStyle[data-modal_pageMargin='0.8'] .infoItem.template_css .info-list span{width:240px;}
+.wbdCv-baseStyle[data-modal_pageMargin='0.9'] .infoItem.template_css .info-list span{width:236px;}
+.wbdCv-baseStyle[data-modal_pageMargin='1'] .infoItem.template_css .info-list span{width:232px;}
+.wbdCv-baseStyle[data-modal_pageMargin='1.1'] .infoItem.template_css .info-list span{width:228px;}
+.wbdCv-baseStyle[data-modal_pageMargin='1.2'] .infoItem.template_css .info-list span{width:224px;}
+.wbdCv-baseStyle[data-modal_pageMargin='1.3'] .infoItem.template_css .info-list span{width:220px;}
+.wbdCv-baseStyle[data-modal_pageMargin='1.4'] .infoItem.template_css .info-list span{width:216px;}
+.wbdCv-baseStyle[data-modal_pageMargin='1.5'] .infoItem.template_css .info-list span{width:212px;}
+
+/*社交账号*/
+.wbdCv-baseStyle .socialItem.template_css{margin-top:-5px;}
+.wbdCv-baseStyle .socialItem.template_css dl{padding-bottom:30px;}
+.wbdCv-baseStyle .socialItem.template_css .social-list{margin:0 2px;}
+.socialItem.template_css .social-list a{background:transparent url(../images/social/j17_social.png) no-repeat 0 0; border:1px solid #cecece;}
+
+/*推荐信*/
+.wbdCv-baseStyle .recoment-list .info{float:left; width:414px; padding-left:15px; padding-top:2px;}
+.wbdCv-baseStyle .recoment-list .info .name{width:100%; font-size:16px; color:#282828; font-weight:bold;}
+.wbdCv-baseStyle .recoment-list .info span{font-size:12px; color:#9f9f9f;}
+.wbdCv-baseStyle .recoment-list .text{color:#7c7c7c;}
+.wbdCv-baseStyle .recoment-list .info span.time{width:111px; text-align:right;}
+.wbdCv-baseStyle .recoment-list .info span.relation{width:283px;}
+
+/* 作品集 */
+.wbdCv-baseLeft .link-list{background-color:#f8f8f8;}
+.wbdCv-baseLeft .work-list .work-title, 
+.wbdCv-baseLeft .link-list .work-text{color: #707070;}
+
+/*6.2.0 左侧添加自定义按钮修改*/
+.wbdCv-baseLeft .addCustomItem{width:228px; margin:0;}
+/*6.2.0 左侧添加自定义按钮修改end*/
+
+/*颜色设置*/
+
+.wbdCv-baseStyle[data_color="j1"] .wbdCv-baseTop{border-color:#0b70bd;}
+.wbdCv-baseStyle[data_color="j2"] .wbdCv-baseTop{border-color:#254665;}
+.wbdCv-baseStyle[data_color="j3"] .wbdCv-baseTop{border-color:#589bf7;}
+.wbdCv-baseStyle[data_color="j4"] .wbdCv-baseTop{border-color:#ff7171;}
+.wbdCv-baseStyle[data_color="j5"] .wbdCv-baseTop{border-color:#37b754;}
+.wbdCv-baseStyle[data_color="j6"] .wbdCv-baseTop{border-color:#292929;}
+.wbdCv-baseStyle[data_color="j7"] .wbdCv-baseTop{border-color:#ee7000;}
+.wbdCv-baseStyle[data_color="j8"] .wbdCv-baseTop{border-color:#a29177;}
+.wbdCv-baseStyle[data_color="j9"] .wbdCv-baseTop{border-color:#da180f;}
+.wbdCv-baseStyle[data_color="j10"] .wbdCv-baseTop{border-color:#6b4b24;}
+.wbdCv-baseStyle[data_color="j11"] .wbdCv-baseTop{border-color:#048BB3;}
+.wbdCv-baseStyle[data_color="j12"] .wbdCv-baseTop{border-color:#5974D4;}
+.wbdCv-baseStyle[data_color="j13"] .wbdCv-baseTop{border-color:#9D57CA;}
+.wbdCv-baseStyle[data_color="j14"] .wbdCv-baseTop{border-color:#d4ba38;}
+.wbdCv-baseStyle[data_color="j15"] .wbdCv-baseTop{border-color:#69cc41;}
+
+.wbdCv-baseStyle[data_color="j1"] .baseItem.template_css .dd-title span{color:#0b70bd;}
+.wbdCv-baseStyle[data_color="j2"] .baseItem.template_css .dd-title span{color:#254665;}
+.wbdCv-baseStyle[data_color="j3"] .baseItem.template_css .dd-title span{color:#589bf7;}
+.wbdCv-baseStyle[data_color="j4"] .baseItem.template_css .dd-title span{color:#ff7171;}
+.wbdCv-baseStyle[data_color="j5"] .baseItem.template_css .dd-title span{color:#37b754;}
+.wbdCv-baseStyle[data_color="j6"] .baseItem.template_css .dd-title span{color:#292929;}
+.wbdCv-baseStyle[data_color="j7"] .baseItem.template_css .dd-title span{color:#ee7000;}
+.wbdCv-baseStyle[data_color="j8"] .baseItem.template_css .dd-title span{color:#a29177;}
+.wbdCv-baseStyle[data_color="j9"] .baseItem.template_css .dd-title span{color:#da180f;}
+.wbdCv-baseStyle[data_color="j10"] .baseItem.template_css .dd-title span{color:#6b4b24;}
+.wbdCv-baseStyle[data_color="j11"] .baseItem.template_css .dd-title span{color:#048BB3;}
+.wbdCv-baseStyle[data_color="j12"] .baseItem.template_css .dd-title span{color:#5974D4;}
+.wbdCv-baseStyle[data_color="j13"] .baseItem.template_css .dd-title span{color:#9D57CA;}
+.wbdCv-baseStyle[data_color="j14"] .baseItem.template_css .dd-title span{color:#d4ba38;}
+.wbdCv-baseStyle[data_color="j15"] .baseItem.template_css .dd-title span{color:#69cc41;}
+
+.wbdCv-baseStyle .skillItem.public_parts_08 .skill-slider span::before, 
+.wbdCv-baseStyle .skillItem.public_parts_11 .skill-slider span::before, 
+.wbdCv-baseStyle .skillItem.template_css .skill-slider span::before{background-color:#f8f8f8 !important;}
+.wbdCv-baseStyle .wbdCv-baseLeft .baseItem dt span{background-color:#f8f8f8 !important;}
+.wbdCv-baseStyle .wbdCv-baseLeft .baseItem.public_parts_02 dt span{box-shadow: 0 0 0 10px #f8f8f8 !important;}
