@@ -241,7 +241,7 @@
 .time_parts_05.baseItem dd{position:relative; padding-left:30px;}
 .time_parts_05.baseItem dd:before{content:""; position:absolute; top:0; left:12px; width:0; height:100%; border-left:1px solid #0b70bd;}
 .time_parts_05.baseItem .dd-title span.time:before{content:""; position:absolute; top:10px; left:-22px; display:inline-block; width:7px; height:7px; margin-top:-4px; border: 1px solid #0b70bd; border-radius:100%; background:#fff;}
-.time_parts_05.baseItem .dd-content:first-child .time:after{content:""; position:absolute; top:0; left:-26px; display:inline-block; width:10px; height:8px; background:#fff;}
+.time_parts_05.baseItem .dd-content:first-child .time:after{content:""; position:absolute; top:0; left:-26px; display:inline-block; width:10px; height:8px;}
 .wbdCv-baseStyle[data_color="j1"] .time_parts_05.baseItem dl dt span{color:#0b70bd;}
 .wbdCv-baseStyle[data_color="j2"] .time_parts_05.baseItem dl dt span{color:#254665;}
 .wbdCv-baseStyle[data_color="j3"] .time_parts_05.baseItem dl dt span{color:#589bf7;}

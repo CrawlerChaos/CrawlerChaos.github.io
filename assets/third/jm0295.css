@@ -1,6 +1,6 @@
 .wbdCv-baseTop{height:160px; padding:20px 30px 0; border-bottom:8px solid #0b70bd; background-color:#292929;}
-.wbdCv-baseLeft{position: absolute; bottom:0; left:0; top:160px; width:270px; padding-right:20px !important;}
-.wbdCv-baseRight{padding-left:20px !important;}
+.wbdCv-baseLeft{ bottom:0; left:0;!important;}
+.wbdCv-baseRight{!important;}
 .wbdCv-resume .moduleItem.template_css dl dt span{line-height:24px; color:#333;}
 .wbdCv-resume .moduleItem.template_css dl dt a.wbdfont{float:left; display:inline-block; width:26px; height:26px; line-height:1.55; margin-right:10px; border-radius:50%; color:#fff; text-align:center; overflow:hidden;}
 .wbdCv-resume .moduleItem.template_css dl dt a.wbdfont{background:#292929;}
@@ -29,9 +29,9 @@
 
 /* 时间模块统一样式 */
 .wbdCv-baseStyle .baseItem .dd-title span.time,
-.wbdCv-baseStyle .baseItem .dd-title span.company{width:50%; font-weight:bold; font-size:14px; color:#666;}
+.wbdCv-baseStyle .baseItem .dd-title span.company{width:50%; font-weight:bold; font-size:14px; color:#ffffff;}
 .wbdCv-baseStyle .baseItem .dd-title span.company{float:right; margin-right:0; text-align:right;}
-.wbdCv-baseStyle .baseItem .dd-title span.post{float:none; clear:both; width:60%; font-size:14px; color:#666;}
+.wbdCv-baseStyle .baseItem .dd-title span.post{float:none; clear:both; width:60%; font-size:14px; color:#ffffff;}
 .wbdCv-baseStyle .baseItem .dd-title span.time{width:35%;}
 
 /*姓名*/

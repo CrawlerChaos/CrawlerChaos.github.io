@@ -41,19 +41,19 @@
         <div class="collapse navbar-collapse text-center justify-content-end" id="navbar3SupportedContent">
             <ul class="navbar-nav">
                 <li class="nav-item mx-2 mb-2 my-md-0">
+                    <a class="nav-link" href="#home">Home</a>
+                </li>
+                <li class="nav-item mx-2 mb-2 my-md-0">
                     <a class="nav-link" href="#introduce">简介</a>
                 </li>
                 <li class="nav-item mx-2 mb-2 my-md-0">
-                    <a class="nav-link" href="#who">力二</a>
-                </li>
-                <li class="nav-item mx-2 mb-2 my-md-0">
-                    <a class="nav-link" href="#who">好三</a>
+                    <a class="nav-link" href="#product">作品</a>
                 </li>
             </ul>
         </div>
     </div>
 </nav>
-<div class="py-5 text-center cover d-flex flex-column bg-dark">
+<div class="py-5 text-center cover d-flex flex-column bg-dark" id="home">
     <div class="container my-auto">
         <div class="row">
             <div class="mx-auto col-lg-6 col-md-8">
@@ -73,17 +73,17 @@
 </div>
 <div class="py-5 filter-dark cover bg-fixed" id="introduce"
      style="background-image: url('assets/team/background.jpg');background-position:center bottom;background-size:cover;">
-    <div class="operation_container">
+    <div class="operation_container" style="padding-left: 80px;">
         <div class="opeartion_resume">
             <div class="wbdCv-baseStyle" id="resume_base" data-lang="zh" data_color="j7" data_font_name="yahei" data_font_size="14" data_line_height="1"
-                 data_font_type="0" data_hidden_paging="false" style="display: flex;flex-direction: row"
+                 data_font_type="0" data_hidden_paging="false" style="display: flex;flex-direction: row;"
                  resume_sort="{&quot;left&quot;:[&quot;base_info&quot;,&quot;base_home&quot;,&quot;base_social&quot;,&quot;64307c503a3ef0e39bdfae240d794061&quot;,&quot;resume_skill&quot;,&quot;resume_hobby&quot;],&quot;top&quot;:[&quot;resume_head&quot;,&quot;resume_name&quot;],&quot;right&quot;:[&quot;resume_job_preference&quot;,&quot;resume_summary&quot;,&quot;resume_edu&quot;,&quot;resume_work&quot;,&quot;resume_internship&quot;,&quot;resume_volunteer&quot;,&quot;resume_project&quot;,&quot;resume_honor&quot;,&quot;resume_portfolio&quot;,&quot;resume_qrcode&quot;],&quot;bottom&quot;:[]}"
                  wap_resume_sort=""
                  data_itemid="429" data-modal_margin="0.8" data-modal_pagemargin="1">
                 <!--封面模块-->
 
 
-                <div class="wbdCv-baseLeft" id="foo" style="top: 0px">
+                <div class="wbdCv-baseLeft" id="foo" style="width: 400px">
                     <div class="infoItem bInfoItem moduleItem resume_sort template_css" id="base_info">
                         <dl>
 
@@ -94,62 +94,71 @@
                                     <div class="info-age info-list moduleItemList" id="birth">
                                         <a class="wbdfont divIconFont" for-key="birth"></a>
                                         <span class="500dtongji" data-placelang="age"
-                                              data-placeholder="年龄" data-value="1990.10">30岁</span>
+                                              data-placeholder="年龄" data-value="1990.10" style="color: white">30岁</span>
                                     </div>
 
                                     <div class="info-city info-list moduleItemList" id="city">
                                         <a class="wbdfont divIconFont" for-key="city"></a>
                                         <span class="500dtongji" data-placelang="city"
-                                              data-placeholder="所在城市" data-value="2280">四川成都</span>
+                                              data-placeholder="所在城市" data-value="2280" style="color: white">四川成都</span>
                                     </div>
 
 
                                     <div class="info-email info-list moduleItemList last-child" id="email">
                                         <a class="wbdfont divIconFont" for-key="email"></a>
                                         <span class="500dtongji" data-placelang="email"
-                                              data-placeholder="电子邮箱">382987055@qq.com</span>
+                                              data-placeholder="电子邮箱" style="color: white">382987055@qq.com</span>
                                     </div>
 
                                 </div>
                             </dd>
+                            <div class="evalItem baseItem moduleItem descItem resume_sort template_css " data-parts="template_css" id="resume_summary">
+                                <dl>
+                                    <dd class="clearfix">
+                                        <div class="dd-content moduleItemList" style="margin-top: 0px">
+                                            <div class="dd-text clearfix">
+                                                <div class="resume_lang resume_content" contenteditable="false" for-key="summary_content"
+                                                     data-placelang="description" style="color: white">◉ 擅长android性能优化，Overdraw，FPS，OOM
+                                                    <span style="letter-spacing: 0.4px;"><br></span>◉ Java hook，apt，gradle task挂接<br>◉ 擅长MVVM架构
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </dd>
+                                </dl>
+                            </div>
                         </dl>
                     </div>
 
                     <div class="skillItem template_css " data-parts="template_css" id="resume_skill">
                         <dl>
-                            <dt class="clearfix hidden">
-                                <a class="wbdfont divIconFont" for-key="resume_skill"></a>
-                                <span><div class="resume_lang module_item_title" for-key="resume_skill" contenteditable="false" data-placeholder="技能特长"
-                                           data-placelang="skill" data-textlang="skill">技能特长</div></span>
-                            </dt>
-                            <dd class="clearfix">
-                                <div class="skill-con">
-                                    <div class="skill-list moduleItemList" data-id="">
-                                        <span class="skill-title item_title">     Android     </span>
+                            <dd class="clearfix" >
+                                <div class="skill-con" style="display: flex;flex-direction: row;flex-wrap: wrap;">
+                                    <div class="skill-list moduleItemList" data-id="" style="margin: 0px">
+                                        <span class="skill-title item_title" style="color: white">     Android     </span>
                                         <span class="skill-slider" data_level="expert"><s><i data-skill-width="1"></i></s><span>精通</span></span>
                                     </div>
-                                    <div class="skill-list moduleItemList" data-id="">
-                                        <span class="skill-title item_title">     shell     </span>
+                                    <div class="skill-list moduleItemList" data-id="" style="margin-left: 30px;margin-right: 30px">
+                                        <span class="skill-title item_title" style="color: white">    gradle    </span>
                                         <span class="skill-slider item_level" data_level="advanced"><s><i
                                                 data-skill-width="1"></i></s><span>熟练</span></span>
                                     </div>
-                                    <div class="skill-list moduleItemList" data-id="">
-                                        <span class="skill-title item_title">    gradle    </span>
+                                     <div class="skill-list moduleItemList" data-id="" style="margin: 0px">
+                                        <span class="skill-title item_title" style="color: white">     shell     </span>
                                         <span class="skill-slider item_level" data_level="advanced"><s><i
                                                 data-skill-width="1"></i></s><span>熟练</span></span>
                                     </div>
-                                    <div class="skill-list moduleItemList" data-id="">
-                                        <span class="skill-title item_title">   intellij plugin   </span>
+                                    <div class="skill-list moduleItemList" data-id="" style="margin: 0px">
+                                        <span class="skill-title item_title" style="color: white">   intellij plugin   </span>
                                         <span class="skill-slider item_level" data_level="advanced"><s><i
                                                 data-skill-width="1"></i></s><span>熟练</span></span>
                                     </div>
-                                    <div class="skill-list moduleItemList" data-id="">
-                                        <span class="skill-title item_title">   kotlin   </span>
+                                    <div class="skill-list moduleItemList" data-id="" style="margin-left: 30px;margin-right: 30px">
+                                        <span class="skill-title item_title" style="color: white">   kotlin   </span>
                                         <span class="skill-slider item_level" data_level="expert"><s><i
                                                 data-skill-width="1"></i></s><span>精通</span></span>
                                     </div>
-                                    <div class="skill-list moduleItemList" data-id="">
-                                        <span class="skill-title item_title">  Java  </span>
+                                    <div class="skill-list moduleItemList" data-id="" style="margin: 0px">
+                                        <span class="skill-title item_title" style="color: white">  Java  </span>
                                         <span class="skill-slider item_level" data_level="expert"><s><i
                                                 data-skill-width="1"></i></s><span>精通</span></span>
                                     </div>
@@ -168,48 +177,30 @@
                                 <div class="hobby-con">
                                     <div class="hobby-list moduleItemList" data-id="" id="2f214155e9b24027c555e84d4db81f39">
                                         <a class="wbdfont divIconFont" for-key="2f214155e9b24027c555e84d4db81f39"></a>
-                                        <span class="hobby-title item_title">   电影   </span>
+                                        <span class="hobby-title item_title" style="color: white">   电影   </span>
                                     </div>
-                                    <div class="hobby-list moduleItemList" data-id="" id="c3b67199c6ff398b4a760d07a742bde3">
+                                    <div class="hobby-list moduleItemList" data-id="" id="c3b67199c6ff398b4a760d07a742bde3" style="color: white">
                                         <a class="wbdfont divIconFont" for-key="c3b67199c6ff398b4a760d07a742bde3"></a>
-                                        <span class="hobby-title item_title">  漫画  </span>
+                                        <span class="hobby-title item_title" style="color: white">  漫画  </span>
                                     </div>
                                     <div class="hobby-list moduleItemList" data-id="" id="462ae1a6ab8ac43526df67c9f467f76c">
                                         <a class="wbdfont divIconFont" for-key="462ae1a6ab8ac43526df67c9f467f76c"></a>
-                                        <span class="hobby-title item_title">  爬山  </span>
+                                        <span class="hobby-title item_title" style="color: white">  爬山  </span>
                                     </div>
                                     <div class="hobby-list moduleItemList" data-id="" id="96f07d607020891d436e60e897fc42cc">
                                         <a class="wbdfont divIconFont" for-key="96f07d607020891d436e60e897fc42cc"></a>
-                                        <span class="hobby-title item_title">  台球  </span>
+                                        <span class="hobby-title item_title" style="color: white">  台球  </span>
                                     </div>
                                 </div>
                             </dd>
                         </dl>
                     </div>
                 </div>
-                <div class="wbdCv-baseRight" id="bar">
-                    <div class="evalItem baseItem moduleItem descItem resume_sort template_css " data-parts="template_css" id="resume_summary">
-                        <dl>
-                            <dd class="clearfix">
-                                <div class="dd-content moduleItemList">
-                                    <div class="dd-text clearfix">
-                                        <div class="resume_lang resume_content" contenteditable="false" for-key="summary_content"
-                                             data-placeholder="篇幅不要太长，注意结合简历整体的美观度，如果真的有很多话要说，建议以求职信的形式附上。自我评价应做到突出自身符合目标岗位要求的“卖点”，避免过多使用形容词，而应该通过数据及实例来对自身价值进行深化。"
-                                             data-placelang="description">◉ 擅长android性能优化，Overdraw，FPS，OOM等问题
-                                            <span style="letter-spacing: 0.4px;"><br></span>◉ Java hook，apt，gradle task挂接<br>◉ 擅长MVVM架构
-                                        </div>
-                                    </div>
-                                </div>
-                            </dd>
-                        </dl>
-                    </div>
+                <div class="wbdCv-baseRight" id="bar" style="flex: 1">
+
                     <div class="eduItem baseItem timeItem moduleItem resume_sort template_css hidden" data-parts="template_css" id="resume_edu">
                         <dl>
-                            <dt class="clearfix ">
-                                <a class="wbdfont divIconFont" for-key="resume_edu"></a>
-                                <span><div class="resume_lang module_item_title" for-key="resume_edu" contenteditable="false" data-placeholder="教育背景"
-                                           data-placelang="edu" data-textlang="edu">教育背景</div></span>
-                            </dt>
+
                             <dd class="clearfix">
                                 <div class="dd-content moduleItemList" data-id="1968906">
                                     <div class="dd-logo hidden clearfix">
@@ -230,16 +221,11 @@
                     </div>
                     <div class="experItem baseItem timeItem moduleItem resume_sort time_parts_05 " data-parts="time_parts_05" id="resume_work">
                         <dl>
-                            <dt class="clearfix hidden">
-                                <a class="wbdfont divIconFont" for-key="resume_work"></a>
-                                <span><div class="resume_lang module_item_title" for-key="resume_work" contenteditable="false" data-placeholder="工作经验"
-                                           data-placelang="exper" data-textlang="exper">工作经验</div></span>
-                            </dt>
                             <dd class="clearfix">
                                 <div class="dd-content moduleItemList" data-id="">
                                     <div class="dd-title clearfix ">
-                                                <span class="time"><div contenteditable="false" data-placeholder="设置时间" data-placelang="time"><i
-                                                        class="time-start">2020.2</i>-<i class="time-end">2020.6</i></div></span>
+                                        <span class="time"><div data-placelang="time"><i class="time-start">2020.2</i>-<i
+                                                class="time-end">2020.6</i></div></span>
                                         <span class="company"><div contenteditable="false" data-placeholder="填写公司名称"
                                                                    data-placelang="organization">腾讯</div></span>
                                         <span class="post"><div contenteditable="false" data-placeholder="填写职位名称"
@@ -249,14 +235,10 @@
                                         <div class="resume_lang resume_content" contenteditable="false" for-key="exper_content"
                                              data-placeholder="详细描述你的职责范围、工作任务及取得的成绩，工作经验的时间采取倒叙形式，最近经历写在前面，描述尽量具体简洁，工作经验的描述与目标岗位的招聘要求尽量匹配，用词精准。"
                                              data-placelang="description"><span style="font-weight: bold; color: rgb(237, 111, 0);">概述： </span><span
-                                                style="color: rgb(127, 127, 127);">QQ浏览器研发</span>
+                                                style="color: rgb(255, 255, 255);">QQ浏览器研发</span>
                                             <div><span style="color: rgb(237, 111, 0); font-weight: bold;">职责：&nbsp;</span><span
-                                                    style="letter-spacing: 0px;">负责WUP网络基础服务，UI框架，线程池，性能相关工作</span></div>
+                                                    style="letter-spacing: 0px;color: rgb(255, 255, 255);">负责WUP网络基础服务，UI框架，线程池，性能相关工作</span></div>
                                         </div>
-                                    </div>
-                                    <div class="dd-tags clearfix">
-                                        <a href="javascript:void(0);" class="inset_moduleTags">+添加标签</a>
-
                                     </div>
                                 </div>
                                 <div class="dd-content moduleItemList" data-id="3195086">
@@ -272,13 +254,11 @@
                                         <div class="resume_lang resume_content" contenteditable="false" for-key="exper_content"
                                              data-placeholder="详细描述你的职责范围、工作任务及取得的成绩，工作经验的时间采取倒叙形式，最近经历写在前面，描述尽量具体简洁，工作经验的描述与目标岗位的招聘要求尽量匹配，用词精准。"
                                              data-placelang="description"><span
-                                                style="color: rgb(237, 111, 0); font-weight: bold;">概述：&nbsp;</span>Saas收银产品研发<br><span
-                                                style="color: rgb(237, 111, 0); font-weight: bold;">职责：</span> 支付，组件化设计，框架设计, 可视化小票插件
+                                                style="color: rgb(237, 111, 0); font-weight: bold;">概述：&nbsp;</span><span
+                                                style="color: rgb(255, 255, 255);">Saas收银产品研发</span><br><span
+                                                style="color: rgb(237, 111, 0); font-weight: bold;">职责：</span> <span
+                                                style="color: rgb(255, 255, 255);">支付，组件化设计，框架设计, 可视化小票插件</span>
                                         </div>
-                                    </div>
-                                    <div class="dd-tags clearfix">
-                                        <a href="javascript:void(0);" class="inset_moduleTags">+添加标签</a>
-
                                     </div>
                                 </div>
                                 <div class="dd-content moduleItemList" data-id="2284710">
@@ -294,14 +274,11 @@
                                         <div class="resume_lang resume_content" contenteditable="false" for-key="exper_content"
                                              data-placeholder="详细描述你的职责范围、工作任务及取得的成绩，工作经验的时间采取倒叙形式，最近经历写在前面，描述尽量具体简洁，工作经验的描述与目标岗位的招聘要求尽量匹配，用词精准。"
                                              data-placelang="description"><span style="color: rgb(238, 112, 0); font-weight: bold;">
-概述：</span><span style="color: rgb(127, 127, 127);">对接纽约第五大道所有中高端时尚品牌及美国五大百货公司的海外购物平台，轻奢应用</span><br><span style="color: rgb(238, 112, 0); font-weight: bold;">职责：</span>Android全模块开发，AAC+PB+ByRouter+Kotlin开发组件化设计，OCTO动态页面配置，灵活高效<br><span
-                                                style="color: rgb(238, 112, 0); font-weight: bold;">Link：</span>http://www.bybieyang.com
+概述：</span><span style="color: rgb(255, 255, 255);">对接纽约第五大道所有中高端时尚品牌及美国五大百货公司的海外购物平台，轻奢应用</span><br><span style="color: rgb(238, 112, 0); font-weight: bold;">职责：</span><span
+                                                style="color: rgb(255, 255, 255);">Android全模块开发，AAC+PB+ByRouter+Kotlin开发组件化设计，OCTO动态页面配置，灵活高效</span><br><span style="color: rgb(238, 112, 0); font-weight: bold;">Link：<a href="http://bieyangapp.com/cn/"  target="_blank">http://bieyangapp.com/cn</a></span>
                                         </div>
                                     </div>
-                                    <div class="dd-tags clearfix">
-                                        <a href="javascript:void(0);" class="inset_moduleTags">+添加标签</a>
 
-                                    </div>
                                 </div>
                                 <div class="dd-content moduleItemList" data-id="2284722">
                                     <div class="dd-title clearfix ">
@@ -316,8 +293,9 @@
                                         <div class="resume_lang resume_content" contenteditable="false" for-key="exper_content"
                                              data-placeholder="详细描述你的职责范围、工作任务及取得的成绩，工作经验的时间采取倒叙形式，最近经历写在前面，描述尽量具体简洁，工作经验的描述与目标岗位的招聘要求尽量匹配，用词精准。"
                                              data-placelang="description"><span style="color: rgb(238, 112, 0); font-weight: bold;">
-概述：</span>咕咚是全球最大的运动社交平台，为6000万运动爱好者提供专业运动跟踪记录、运动知识、跑步健身训练、马拉松及骑行赛事、运动装备优选等全套解决方案<br><span style="color: rgb(238, 112, 0); font-weight: bold;">职责： </span>运动核心模块研发，app性能优化，滤波&amp;三角纠偏&nbsp;<br><span
-                                                style="color: rgb(238, 112, 0); font-weight: bold;">Link：</span>http://www.codoon.com/
+概述：</span><span style="color: rgb(255, 255, 255);">咕咚是全球最大的运动社交平台，为6000万运动爱好者提供专业运动跟踪记录、运动知识、跑步健身训练、马拉松及骑行赛事、运动装备优选等全套解决方案<br></span><span
+                                                style="color: rgb(238, 112, 0); font-weight: bold;">职责： </span><span style="color: rgb(255, 255, 255);">运动核心模块研发，app性能优化，滤波&amp;三角纠偏&nbsp;</span><br><span
+                                                style="color: rgb(238, 112, 0); font-weight: bold;">Link：<a href="http://www.codoon.com" target="_blank">http://www.codoon.com</a>          </span>                                                      
                                         </div>
                                     </div>
                                     <div class="dd-tags clearfix">
@@ -338,13 +316,9 @@
                                         <div class="resume_lang resume_content" contenteditable="false" for-key="exper_content"
                                              data-placeholder="详细描述你的职责范围、工作任务及取得的成绩，工作经验的时间采取倒叙形式，最近经历写在前面，描述尽量具体简洁，工作经验的描述与目标岗位的招聘要求尽量匹配，用词精准。"
                                              data-placelang="description"><span style="color: rgb(238, 112, 0); font-weight: bold;">
-概述：</span>面向中国国内和日本客户提供系统应用开发，基于大型ERP系统的二次开发等离岸外包服务及BPO服务
-                                            <br><span style="color: rgb(238, 112, 0); font-weight: bold;">职责：</span>东芝プロジェクト(帐票开発)负责&lt;试算表&gt;＜损益表＞等开发，以及测试式样书撰写，单体测试以及结合测试。
+概述：</span><span style="color: rgb(255, 255, 255);">面向中国国内和日本客户提供系统应用开发，基于大型ERP系统的二次开发等离岸外包服务及BPO服务</span>
+                                            <br><span style="color: rgb(238, 112, 0); font-weight: bold;">职责：</span><span style="color: rgb(255, 255, 255);">东芝プロジェクト(帐票开発)负责&lt;试算表&gt;＜损益表＞等开发，以及测试式样书撰写，单体测试以及结合测试。</span>
                                         </div>
-                                    </div>
-                                    <div class="dd-tags clearfix">
-                                        <a href="javascript:void(0);" class="inset_moduleTags">+添加标签</a>
-
                                     </div>
                                 </div>
                             </dd>
@@ -355,7 +329,7 @@
         </div>
     </div>
 </div>
-<div class="py-5 bg-light" id="what">
+<!-- <div class="py-5 bg-light" id="what">
     <div class="container">
         <div class="row text-center">
             <div class="col-md-10 mx-auto px-4">
@@ -392,7 +366,7 @@
             </div>
         </div>
     </div>
-</div>
+</div> 
 <div class="text-center py-5">
     <div class="container">
         <div class="row">
@@ -468,6 +442,7 @@
         </div>
     </div>
 </div>
+
 <div class="py-5 section bg-light">
     <div class="container p-3">
         <div class="row align-items-center mb-4">
@@ -498,7 +473,8 @@
         </div>
     </div>
 </div>
-<div class="py-5 text-center" id="who">
+-->
+<div class="py-5 text-center" id="product">
     <div class="container">
         <div class="row">
             <div class="col-md-12"></div>
@@ -578,7 +554,7 @@
         </div>
     </div>
 </div>
-<div class="text-white bg-dark" id="where">
+<!-- <div class="text-white bg-dark" id="where">
     <div class="container">
         <div class="row">
             <div class="p-5 col-md-6">
@@ -748,7 +724,7 @@
             </div>
         </div>
     </div>
-</div>
+</div> -->
 <script src="https://code.jquery.com/jquery-3.3.1.min.js"></script>
 <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js"
         integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
